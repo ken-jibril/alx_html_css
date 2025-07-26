@@ -1,6 +1,15 @@
 body {
     display: flex;
 }
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header li {
+    margin: 0 10px;
+    display: flex;
+}
 main {
     flex-direction: row;
     flex: auto;
