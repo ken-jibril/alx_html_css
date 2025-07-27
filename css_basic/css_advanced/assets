@@ -1,0 +1,272 @@
+/* logo */
+
+position: absolute;
+width: 167.02px;
+height: 29.46px;
+left: 171.59px;
+top: 35.02px;
+
+
+
+/* SmileSchool */
+
+position: absolute;
+width: 111.83px;
+height: 12.58px;
+left: 226.77px;
+top: 41.54px;
+
+background: #FFFFFF;
+
+
+/* Path */
+
+position: absolute;
+width: 10.85px;
+height: 12.58px;
+left: 226.77px;
+top: 41.54px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 14.47px;
+height: 8.59px;
+left: 239.45px;
+top: 45.41px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 3.92px;
+height: 2.74px;
+left: 255.56px;
+top: 41.54px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 3.87px;
+height: 8.59px;
+left: 255.59px;
+top: 45.41px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 3.96px;
+height: 12.33px;
+left: 261.1px;
+top: 41.67px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 9.32px;
+height: 8.82px;
+left: 266.61px;
+top: 45.29px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 1.84px;
+height: 2.12px;
+left: 270.44px;
+top: 46.84px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 10.85px;
+height: 12.58px;
+left: 277.37px;
+top: 41.54px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 9.31px;
+height: 8.84px;
+left: 289.83px;
+top: 45.29px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 9.56px;
+height: 12.42px;
+left: 300.72px;
+top: 41.58px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 9.97px;
+height: 8.84px;
+left: 311.81px;
+top: 45.29px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 1.91px;
+height: 4.66px;
+left: 315.84px;
+top: 47.38px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 9.97px;
+height: 8.84px;
+left: 323.16px;
+top: 45.29px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 1.91px;
+height: 4.66px;
+left: 327.2px;
+top: 47.38px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 3.96px;
+height: 12.33px;
+left: 334.65px;
+top: 41.67px;
+
+
+
+/* Path */
+
+position: absolute;
+width: 7.87px;
+height: 11.85px;
+left: 175.99px;
+top: 35.02px;
+
+background: #FFFFFF;
+
+
+/* Path */
+
+position: absolute;
+width: 7.87px;
+height: 11.85px;
+left: 194.71px;
+top: 35.02px;
+
+background: #FFFFFF;
+
+
+/* Path */
+
+position: absolute;
+width: 35.57px;
+height: 8.87px;
+left: 171.59px;
+top: 51.35px;
+
+background: #FFFFFF;
+transform: rotate(-7deg);
+
+
+/* menu */
+
+position: absolute;
+width: 234px;
+height: 15px;
+left: 1041px;
+top: 37px;
+
+
+
+/* COURSES */
+
+position: absolute;
+height: 15px;
+left: 0%;
+right: 78.63%;
+top: calc(50% - 15px/2);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* PRICING */
+
+position: absolute;
+height: 15px;
+left: 43.59%;
+right: 37.18%;
+top: calc(50% - 15px/2);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* LOGIN */
+
+position: absolute;
+height: 15px;
+left: 85.47%;
+right: 0%;
+top: calc(50% - 15px/2);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
