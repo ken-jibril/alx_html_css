@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     background-color: ghostwhite;
 }
 header ul {
@@ -10,13 +11,12 @@ header ul {
 header li {
     margin: 0 10px;
     display: flex;
-    background-color: black;
     color: white;
     padding: 10px;
 }
 main {
+    display: flex;
     flex-direction: row;
-
     flex: auto;
 }
 article {
