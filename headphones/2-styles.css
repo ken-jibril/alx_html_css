@@ -220,26 +220,92 @@ h1 {
     font-size: 0.95rem;
     color: #555;
 }
+/* SECTION BACKGROUND + BASIC LAYOUT */
 .our-results {
-    text-align: center;
-    padding: 60px 20px;
-    background-image: url('/headphones/images/headphones_hero_2.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    position: relative;
-    background-repeat: no-repeat;
-    height: 70vh;
+  text-align: center;
+  padding: 56px 20px;                 /* more breathing room */
+  background-image: url('/headphones/images/headphones_hero_2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  min-height: 60vh;                   /* gentler than 80vh */
+  display: block !important;          /* stop flex row from earlier */
 }
+
+/* MAIN STACK: h2 -> p -> shapes */
+.results {
+  position: static !important;        /* cancel absolute centering */
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
+
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;             /* vertical stack */
+  align-items: center;
+  gap: 24px;                          /* tidy spacing between blocks */
+}
+
+/* HEADING + PARAGRAPH */
 .our-results h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: white;
+  margin: 0 0 8px 0;                  /* keep it tight to the lead */
+  font-size: 2.4rem;
 }
-.our-results p {
-    font-size: 1.1rem;
-    color: white;
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.6;
+
+.results-lead {
+  margin: 0 0 20px 0;
+  max-width: 800px;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+/* ROW OF SHAPES */
+.shapes-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: wrap;                    /* wrap nicely on small screens */
+}
+
+/* ONE SHAPE */
+.shape { width: 160px; }
+
+.pentagon {
+  position: relative;                 /* anchor for the inside text */
+  width: 100%;
+  aspect-ratio: 1;                    /* keeps it perfectly square */
+  background: #ff5a5f;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  box-shadow: 0 8px 20px rgba(0,0,0,.25);
+}
+
+/* TEXT INSIDE THE SHAPE (ALL OF IT) */
+.kpi-text {
+  position: absolute;
+  inset: 0;                           /* fill the pentagon */
+  display: grid;
+  place-items: center;                /* perfect center */
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  line-height: 1.2;
+  font-size: 1.05rem;
+}
+
+/* kill any old image-based rules that were leaking in */
+.our-results img { display: none !important; }
+
+/* RESPONSIVE TWEAKS */
+@media (max-width: 900px) {
+  .shape { width: 140px; }
+}
+@media (max-width: 600px) {
+  .our-results { padding: 44px 16px; }
+  .our-results h2 { font-size: 1.9rem; }
+  .results-lead { font-size: .98rem; }
+  .shape { width: 120px; }
 }
