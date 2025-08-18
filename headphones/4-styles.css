@@ -370,7 +370,7 @@ footer {
 .logo-area p {
   font-family: logofont, Arial, sans-serif;
   display: flex;
-  font-size: 2em;
+  font-size: 1em;
 }
 .footer-logo {
   margin: 20px;
